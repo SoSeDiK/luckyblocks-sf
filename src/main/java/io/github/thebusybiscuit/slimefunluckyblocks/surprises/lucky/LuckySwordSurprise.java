@@ -19,7 +19,7 @@ public final class LuckySwordSurprise implements Surprise {
 
 	@Override
 	public void activate(Random random, Player p, Location l) {
-		l.getWorld().dropItemNaturally(l, new CustomItem(Material.GOLDEN_SWORD, "&e&lLucky Sword", new String[] {"DAMAGE_ALL-10", "LOOT_BONUS_MOBS-10", "FIRE_ASPECT-5", "DURABILITY-10"}, 0));
+		l.getWorld().dropItemNaturally(l, new CustomItem(Material.GOLDEN_SWORD, "&e&lЛаки мечик", new String[] {"DAMAGE_ALL-10", "LOOT_BONUS_MOBS-10", "FIRE_ASPECT-5", "DURABILITY-10"}, 0));
 	}
 
 	@Override

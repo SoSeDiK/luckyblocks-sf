@@ -118,12 +118,12 @@ public class SlimefunLuckyBlocks extends JavaPlugin {
 		ItemStack pandorasBox = null;
 		
 		try {
-			category = new Category(new CustomItem(CustomSkull.getItem(texture), "&rLucky Blocks", "&a> Click to open"));
+			category = new Category(new CustomItem(CustomSkull.getItem(texture), "&rЛаки блоки", "&a> Нажмите, чтобы открыть"));
 			
-			luckyBlock = new CustomItem(CustomSkull.getItem(texture), "&rLucky Block", "&7Luck: &r0");
-			veryLuckyBlock = new CustomItem(CustomSkull.getItem(texture), "&rVery lucky Block", "&7Luck: &a+80");
-			veryUnluckyBlock = new CustomItem(CustomSkull.getItem(texture), "&rVery unlucky Block", "&7Luck: &c-80");
-			pandorasBox = new CustomItem(CustomSkull.getItem("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODZjN2RkZTUxMjg3MWJkNjA3Yjc3ZTY2MzVhZDM5ZjQ0ZjJkNWI0NzI5ZTYwMjczZjFiMTRmYmE5YTg2YSJ9fX0="), "&5Pandora's Box", "&7Luck: &c&oERROR");
+			luckyBlock = new CustomItem(CustomSkull.getItem(texture), "&rЛаки блок", "&7Удача: &r0");
+			veryLuckyBlock = new CustomItem(CustomSkull.getItem(texture), "&rНеудачливый лаки блок", "&7Удача: &a+80");
+			veryUnluckyBlock = new CustomItem(CustomSkull.getItem(texture), "&rУдачливый лаки блок", "&7Удача: &c-80");
+			pandorasBox = new CustomItem(CustomSkull.getItem("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODZjN2RkZTUxMjg3MWJkNjA3Yjc3ZTY2MzVhZDM5ZjQ0ZjJkNWI0NzI5ZTYwMjczZjFiMTRmYmE5YTg2YSJ9fX0="), "&5Коробка Пандоры", "&7Удача: &c&oОШИБКА");
 		} catch (Exception x) {
 			getLogger().log(Level.SEVERE, "An Error occured while initializing Lucky Block Items for LuckyBlocks v" + getDescription().getVersion(), x);
 		}
@@ -213,7 +213,7 @@ public class SlimefunLuckyBlocks extends JavaPlugin {
 	public static ItemStack createPotion(Color color, PotionEffect effect, boolean lucky) {
 		ItemStack potion = new ItemStack(lucky ? Material.POTION: Material.SPLASH_POTION);
 		PotionMeta pm = (PotionMeta) potion.getItemMeta();
-		pm.setDisplayName(ChatColor.translateAlternateColorCodes('&', (lucky ? "&6Lucky" : "&cUnlucky") + " potion"));
+		pm.setDisplayName(ChatColor.translateAlternateColorCodes('&', (lucky ? "&6Удачное" : "&cНеудачное") + " зелье"));
 		pm.setColor(color);
 		pm.addCustomEffect(effect, false);
 		potion.setItemMeta(pm);

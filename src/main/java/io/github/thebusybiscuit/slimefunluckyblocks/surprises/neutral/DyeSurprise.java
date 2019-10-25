@@ -27,7 +27,7 @@ public final class DyeSurprise implements Surprise {
 		l.getWorld().dropItemNaturally(l, new ItemStack(Material.ORANGE_DYE));
 		l.getWorld().dropItemNaturally(l, new ItemStack(Material.PINK_DYE));
 		l.getWorld().dropItemNaturally(l, new ItemStack(Material.PURPLE_DYE));
-		p.sendTitle(p.getName(), ChatColor.translateAlternateColorCodes('&', " has almost &b&odyed"), 10, 20, 10);
+		p.sendTitle(p.getName(), ChatColor.translateAlternateColorCodes('&', " почти &8&oу&b&oпок&8&oоился&d&oрасился&r!"), 10, 20, 10);
 	}
 
 	@Override

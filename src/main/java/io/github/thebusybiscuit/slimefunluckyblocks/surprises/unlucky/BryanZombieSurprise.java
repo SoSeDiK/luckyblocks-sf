@@ -26,10 +26,10 @@ public final class BryanZombieSurprise implements Surprise {
 		Zombie zombie = (Zombie) l.getWorld().spawnEntity(l, EntityType.ZOMBIE);
 		zombie.getAttribute(Attribute.GENERIC_MAX_HEALTH).setBaseValue(60D);
 		zombie.setHealth(60D);
-		zombie.getEquipment().setItemInMainHand(new CustomItem(Material.GOLDEN_AXE, "&e&lLucky Axe", new String[] {"DAMAGE_ALL-10", "DIG_SPEED-10", "LOOT_BONUS_BLOCKS-10", "DURABILITY-10"}, 0));
+		zombie.getEquipment().setItemInMainHand(new CustomItem(Material.GOLDEN_AXE, "&e&lЛаки топорчик", new String[] {"DAMAGE_ALL-10", "DIG_SPEED-10", "LOOT_BONUS_BLOCKS-10", "DURABILITY-10"}, 0));
 		zombie.getEquipment().setItemInMainHandDropChance(0F);
 		zombie.setCanPickupItems(false);
-		zombie.setCustomName(ChatColor.translateAlternateColorCodes('&', "&eBryan"));
+		zombie.setCustomName(ChatColor.translateAlternateColorCodes('&', "&eМозговитый"));
 		zombie.setCustomNameVisible(true);
 	}
 

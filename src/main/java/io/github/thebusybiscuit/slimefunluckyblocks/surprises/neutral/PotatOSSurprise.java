@@ -19,7 +19,7 @@ public final class PotatOSSurprise implements Surprise {
 
 	@Override
 	public void activate(Random random, Player p, Location l) {
-		l.getWorld().dropItemNaturally(l, new CustomItem(Material.POTATO, "&e&lPotatOS"));
+		l.getWorld().dropItemNaturally(l, new CustomItem(Material.POTATO, "&e&lКаРтОшЕчКа"));
 	}
 
 	@Override

@@ -22,7 +22,7 @@ public final class JerrySlimeSurprise implements Surprise {
 	public void activate(Random ranom, Player p, Location l) {
 		Slime slime = (Slime) l.getWorld().spawnEntity(l, EntityType.SLIME);
 		slime.setSize(1);
-		slime.setCustomName(ChatColor.translateAlternateColorCodes('&', "&2Jerry"));
+		slime.setCustomName(ChatColor.translateAlternateColorCodes('&', "&2Слизняк"));
 		slime.setCustomNameVisible(true);
 	}
 

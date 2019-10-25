@@ -37,7 +37,7 @@ public final class ReapersSurprise implements Surprise {
 			}
 			
 			zombie.getEquipment().setHelmetDropChance(0F);
-			zombie.getEquipment().setItemInMainHand(new CustomItem(Material.IRON_HOE, "&e&lLucky Hoe", new String[] {"DAMAGE_ALL-10", "LOOT_BONUS_MOBS-10", "FIRE_ASPECT-5", "DURABILITY-10"}, 0));
+			zombie.getEquipment().setItemInMainHand(new CustomItem(Material.IRON_HOE, "&e&lЛаки мотыжечка", new String[] {"DAMAGE_ALL-10", "LOOT_BONUS_MOBS-10", "FIRE_ASPECT-5", "DURABILITY-10"}, 0));
 			zombie.getEquipment().setItemInMainHandDropChance(0F);
 			zombie.setCanPickupItems(false);
 			

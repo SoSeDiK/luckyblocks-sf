@@ -19,7 +19,7 @@ public final class LuckyPickaxeSurprise implements Surprise {
 
 	@Override
 	public void activate(Random random, Player p, Location l) {
-		l.getWorld().dropItemNaturally(l, new CustomItem(Material.GOLDEN_PICKAXE, "&e&lLucky Pickaxe", new String[] {"DIG_SPEED-10", "LOOT_BONUS_BLOCKS-10", "DURABILITY-10"}, 0));
+		l.getWorld().dropItemNaturally(l, new CustomItem(Material.GOLDEN_PICKAXE, "&e&lЛаки кирочка", new String[] {"DIG_SPEED-10", "LOOT_BONUS_BLOCKS-10", "DURABILITY-10"}, 0));
 	}
 
 	@Override

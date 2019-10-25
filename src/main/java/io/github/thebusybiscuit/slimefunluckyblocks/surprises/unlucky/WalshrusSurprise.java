@@ -33,10 +33,10 @@ public final class WalshrusSurprise implements Surprise {
 			e.printStackTrace();
 		}
 		zombie.getEquipment().setHelmetDropChance(0F);
-		zombie.getEquipment().setItemInMainHand(new CustomItem(Material.GOLDEN_SWORD, "&e&lLucky Sword", new String[] {"DAMAGE_ALL-10", "LOOT_BONUS_MOBS-10", "FIRE_ASPECT-5", "DURABILITY-10"}, 0));
+		zombie.getEquipment().setItemInMainHand(new CustomItem(Material.GOLDEN_SWORD, "&e&lЛаки мечик", new String[] {"DAMAGE_ALL-10", "LOOT_BONUS_MOBS-10", "FIRE_ASPECT-5", "DURABILITY-10"}, 0));
 		zombie.getEquipment().setItemInMainHandDropChance(0F);
 		zombie.setCanPickupItems(false);
-		zombie.setCustomName(ChatColor.translateAlternateColorCodes('&', "&4Walshrus"));
+		zombie.setCustomName(ChatColor.translateAlternateColorCodes('&', "&4ЗОМБИ"));
 		zombie.setCustomNameVisible(true);
 	}
 
