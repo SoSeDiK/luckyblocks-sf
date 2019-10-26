@@ -118,7 +118,7 @@ public class SlimefunLuckyBlocks extends JavaPlugin {
 		ItemStack pandorasBox = null;
 		
 		try {
-			category = new Category(new CustomItem(CustomSkull.getItem(texture), "&rЛаки блоки", "&a> Нажмите, чтобы открыть"));
+			category = new Category(new CustomItem(CustomSkull.getItem(texture), "&rЛаки блоки", "", "&a> Нажмите, чтобы открыть"));
 			
 			luckyBlock = new CustomItem(CustomSkull.getItem(texture), "&rЛаки блок", "&7Удача: &r0");
 			veryLuckyBlock = new CustomItem(CustomSkull.getItem(texture), "&rНеудачливый лаки блок", "&7Удача: &a+80");
