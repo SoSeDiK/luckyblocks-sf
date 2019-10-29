@@ -121,8 +121,8 @@ public class SlimefunLuckyBlocks extends JavaPlugin {
 			category = new Category(new CustomItem(CustomSkull.getItem(texture), "&rЛаки блоки", "", "&a> Нажмите, чтобы открыть"));
 			
 			luckyBlock = new CustomItem(CustomSkull.getItem(texture), "&rЛаки блок", "&7Удача: &r0");
-			veryLuckyBlock = new CustomItem(CustomSkull.getItem(texture), "&rНеудачливый лаки блок", "&7Удача: &a+80");
-			veryUnluckyBlock = new CustomItem(CustomSkull.getItem(texture), "&rУдачливый лаки блок", "&7Удача: &c-80");
+			veryLuckyBlock = new CustomItem(CustomSkull.getItem(texture), "&rУдачливый лаки блок", "&7Удача: &a+80");
+			veryUnluckyBlock = new CustomItem(CustomSkull.getItem(texture), "&rНеудачливый лаки блок", "&7Удача: &c-80");
 			pandorasBox = new CustomItem(CustomSkull.getItem("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODZjN2RkZTUxMjg3MWJkNjA3Yjc3ZTY2MzVhZDM5ZjQ0ZjJkNWI0NzI5ZTYwMjczZjFiMTRmYmE5YTg2YSJ9fX0="), "&5Коробка Пандоры", "&7Удача: &c&oОШИБКА");
 		} catch (Exception x) {
 			getLogger().log(Level.SEVERE, "An Error occured while initializing Lucky Block Items for LuckyBlocks v" + getDescription().getVersion(), x);
